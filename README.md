@@ -48,5 +48,73 @@ tous les nbPas. Elle doit respecter borneIn < borneSup.
 la somme des nombres contenus dans le tuple.
 Tester cette fonction par des appels avec différents tuples d’entiers ou de flottants.
 ## Exercice 13
-Écrire une fonction unDictionnaire avec un argument « dictionnaire de longueur va-
-riable », et qui affiche son argument.
+Écrire une fonction unDictionnaire avec un argument « dictionnaire de longueur variable », et qui affiche son argument.
+## Exercice 14
+définir la liste : liste =[17, 38, 10, 25, 72], puis effectuez les actions suivantes :
+– triez et affichez la liste ;
+– ajoutez l’élément 12 à la liste et affichez la liste ;
+– renversez et affichez la liste ;
+– affichez l’indice de l’élément 17 ;
+– enlevez l’élément 38 et affichez la liste ;
+– affichez la sous-liste du 2eau 3eélément ;
+– affichez la sous-liste du début au 2eélément ;
+– affichez la sous-liste du 3eélément à la fin de la liste ;
+– affichez la sous-liste complète de la liste ;
+– affichez le dernier élément en utilisant un indiçage négatif.
+## Exercice 15
+Écrire un module de calcul des racines du trinôme réel : ax^2 +bx Åc.
+Le module définit une fonction trinome avec les trois paramètres du trinôme, a, b et
+c. La fonction doit retourner un tuple dont le premier élément est le nombre de racines
+du trinôme (0, 1 ou 2), et les autres éléments sont les racines éventuelles.
+Testez votre fonction avec les trois jeux de valeurs suivantes : 1,-3,2, 1,-2,1 et 1,1,1.
+## Exercice 16
+Définir une classe Rectangle avec un constructeur donnant des valeurs (longueur et
+largeur) par défaut et un attribut nom = "rectangle", une méthode d’affichage et
+une méthode surface renvoyant la surface d’une instance.
+Définir une classe Carre héritant de Rectangle et qui surcharge l’attribut d’instance :
+nom = "carré".
+Dans le programme principal, instanciez un Rectangle et un Carre et affichez-les.
+## Exercice 17
+Un permis de chasse à points remplace désormais le permis de chasse traditionnel.
+Chaque chasseur possède au départ un capital de 100 points. S’il tue une poule il perd
+1 point, 3 points pour 1 chien, 5 points pour une vache et 10 points pour un ami. Le
+permis coûte 200 euros.
+Écrire une fonction amende qui reçoit le nombre de victimes du chasseur et qui renvoie
+la somme due.
+Utilisez cette fonction dans un programme principal qui saisit le nombre de victimes
+et qui affiche la somme que le chasseur doit débourser.
+## Exercice 18
+Un programme principal saisit une chaîne d’ADN valide et une séquence d’ADN va- ▹
+lide (« valide » signifie qu’elles ne sont pas vides et sont formées exclusivement d’une
+combinaison arbitraire de "a", "t", "g" ou "c").
+Écrire une fonction valide qui renvoie vrai si la saisie est valide, faux sinon.
+Écrire une fonction saisie qui effectue une saisie valide et renvoie la valeur saisie sous
+forme d’une chaîne de caractères.
+Écrire une fonction proportion qui reçoit deux arguments, la chaîne et la séquence et
+qui retourne la proportion de séquence dans la chaîne (c’est-à-dire son nombre d’oc-
+currences).
+Le programme principal appelle la fonction saisie pour la chaîne et pour la séquence
+et affiche le résultat.
+Exemple d’affichage :
+Il y a 13.33 % de "ca" dans votre chaîne.
+## Exercice 19
+Écrire une fonction conv() qui reçoit deux paramètres, une température et un entier
+n, et qui retourne la conversion Celsius->Fahrenheit (n = 1), ou Fahrenheit->Celsius
+(n = 2).
+Rappel : TF = 32 + 1.8 * TC
+## Exercice 20
+Fonction renvoyant plusieurs valeurs sous forme d’un tuple.
+Écrire une fonction minMaxMoy qui reçoit une liste d’entiers et qui renvoie le minimum,
+le maximum et la moyenne de cette liste. Le programme principal appellera cette fonc-
+tion avec la liste : [10, 18, 14, 20, 12, 16].
+## Exercice 21
+Un tableau contient n entiers (2 < n < 100), tous compris entre 0 et 500. Vérifier qu’ils
+sont tous différents.
+## Exercice 22
+Saisir un entier entre 1 et 3999 (pourquoi cette limitation ?). L’afficher en nombre ro-
+main.
+## Exercice 23
+Améliorer le script précédent en utilisant la fonction zip().
+## Exercice 24
+L’utilisateur donne un entier n entre 2 et 12, le programme donne le nombre de façons
+de faire n en lançant deux dés.
