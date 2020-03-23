@@ -51,16 +51,16 @@ Tester cette fonction par des appels avec différents tuples d’entiers ou de f
 Écrire une fonction unDictionnaire avec un argument « dictionnaire de longueur variable », et qui affiche son argument.
 ## Exercice 14
 définir la liste : liste =[17, 38, 10, 25, 72], puis effectuez les actions suivantes :
-– triez et affichez la liste ;
-– ajoutez l’élément 12 à la liste et affichez la liste ;
-– renversez et affichez la liste ;
-– affichez l’indice de l’élément 17 ;
-– enlevez l’élément 38 et affichez la liste ;
-– affichez la sous-liste du 2eau 3eélément ;
-– affichez la sous-liste du début au 2eélément ;
-– affichez la sous-liste du 3eélément à la fin de la liste ;
-– affichez la sous-liste complète de la liste ;
-– affichez le dernier élément en utilisant un indiçage négatif.
+  * triez et affichez la liste ;
+  * ajoutez l’élément 12 à la liste et affichez la liste ;
+  * renversez et affichez la liste ;
+  * affichez l’indice de l’élément 17 ;
+  * enlevez l’élément 38 et affichez la liste ;
+  * affichez la sous-liste du 2è au 3è élément ;
+  * affichez la sous-liste du début au 2eélément ;
+  * affichez la sous-liste du 3è élément à la fin de la liste ;
+  * affichez la sous-liste complète de la liste ;
+  * affichez le dernier élément en utilisant un indiçage négatif.
 ## Exercice 15
 Écrire un module de calcul des racines du trinôme réel : ax^2 +bx Åc.
 Le module définit une fonction trinome avec les trois paramètres du trinôme, a, b et
