@@ -84,8 +84,7 @@ la somme due.
 Utilisez cette fonction dans un programme principal qui saisit le nombre de victimes
 et qui affiche la somme que le chasseur doit débourser.
 ## Exercice 18
-Un programme principal saisit une chaîne d’ADN valide et une séquence d’ADN va- ▹
-lide (« valide » signifie qu’elles ne sont pas vides et sont formées exclusivement d’une
+Un programme principal saisit une chaîne d’ADN valide et une séquence d’ADN valide (« valide » signifie qu’elles ne sont pas vides et sont formées exclusivement d’une
 combinaison arbitraire de "a", "t", "g" ou "c").
 Écrire une fonction valide qui renvoie vrai si la saisie est valide, faux sinon.
 Écrire une fonction saisie qui effectue une saisie valide et renvoie la valeur saisie sous
